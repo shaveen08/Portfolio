@@ -33,10 +33,16 @@ document.getElementById('github').addEventListener('click', ()=>{
 document.getElementById('rps-game-link').addEventListener('click', ()=>{
     window.location.href = "https://github.com/shaveen08/RockPaperScissor-Game";
 });
+document.getElementById('rps-game-demo').addEventListener('click', ()=>{
+    window.location.href = "https://shaveen08.github.io/RockPaperScissor-Game/";
+});
 
 //E-commerce website btn
 document.getElementById('ecommerce-link').addEventListener('click', ()=>{
     window.location.href = "https://github.com/shaveen08/E-commerce-website";
+});
+document.getElementById('ecommerce-demo').addEventListener('click', ()=>{
+    window.location.href = "https://shaveen08.github.io/E-commerce-website/";
 });
 
 //E-commerce website btn
