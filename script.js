@@ -47,7 +47,7 @@ document.getElementById('ecommerce-demo').addEventListener('click', ()=>{
 
 //Apple Store Clone
 document.getElementById('apple-store-link').addEventListener('click', ()=>{
-    window.location.href = "https://github.com/shaveen08/Netflix-clone";
+    window.location.href = "https://github.com/shaveen08/Apple_homepage_clone";
 });
 document.getElementById('apple-store-demo').addEventListener('click', ()=>{
     window.location.href = "https://shaveen08.github.io/Apple_homepage_clone/";
