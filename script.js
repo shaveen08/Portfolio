@@ -45,9 +45,12 @@ document.getElementById('ecommerce-demo').addEventListener('click', ()=>{
     window.location.href = "https://shaveen08.github.io/E-commerce-website/";
 });
 
-//E-commerce website btn
-document.getElementById('netflix-link').addEventListener('click', ()=>{
+//Apple Store Clone
+document.getElementById('apple-store-link').addEventListener('click', ()=>{
     window.location.href = "https://github.com/shaveen08/Netflix-clone";
+});
+document.getElementById('apple-store-demo').addEventListener('click', ()=>{
+    window.location.href = "https://shaveen08.github.io/Apple_homepage_clone/";
 });
 
 //Basic project btn
