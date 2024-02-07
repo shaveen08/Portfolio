@@ -375,7 +375,11 @@
         top: 80px;
         left: 140px;
     }
-
+    .my-details p,.my-details h3,.my-details h4,
+    .my-info,.profile-link{
+        margin-right: 30px;
+    }
+    
     /*Experience*/
     .experience{
         height: 100vh;
