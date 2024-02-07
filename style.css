@@ -350,7 +350,8 @@
     .my-info{
         position: absolute;
         top: 540px;
-        left: 90px;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .my-info button{
         margin: 0 5px;
@@ -373,10 +374,10 @@
         width: 50px;
         position: relative;
         top: 80px;
-        left: 140px;
+        left: 50%;
+        transform: translateX(-125%);
     }
-    .my-details p,.my-details h3,.my-details h4,
-    .my-info,.profile-link{
+    .my-details p,.my-details h3,.my-details h4{
         margin-right: 30px;
     }
     
