@@ -362,6 +362,7 @@
         border-radius: 22px;
         font-weight: 600;
         color: #3d3d3d;
+        white-space: nowrap;
     }
     .my-info button:hover{
         color: #fff;
@@ -382,7 +383,6 @@
     .my-details p,.my-details h3,.my-details h4{
         margin-right: 30px;
     }
-    
     /*Experience*/
     .experience{
         height: 100vh;
