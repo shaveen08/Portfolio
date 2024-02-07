@@ -352,6 +352,8 @@
         top: 540px;
         left: 50%;
         transform: translateX(-50%);
+        display: flex;
+        flex-direction: row;
     }
     .my-info button{
         margin: 0 5px;
