@@ -47,10 +47,10 @@ document.getElementById('ecommerce-demo').addEventListener('click', ()=>{
 
 //Airline Feedback Form
 document.getElementById('airline-feedback-form-link').addEventListener('click', ()=>{
-    window.location.href = "https://github.com/shaveen08/Apple_homepage_clone";
+    window.location.href = "https://github.com/shaveen08/Airline-Feedback-System";
 });
 document.getElementById('airline-feedback-form-demo').addEventListener('click', ()=>{
-    window.location.href = "https://shaveen08.github.io/Apple_homepage_clone/";
+    window.location.href = "https://shaveen08.github.io/Airline-Feedback-System/index.html";
 });
 
 //Apple Store Clone
