@@ -45,6 +45,14 @@ document.getElementById('ecommerce-demo').addEventListener('click', ()=>{
     window.location.href = "https://shaveen08.github.io/E-commerce-website/";
 });
 
+//Airline Feedback Form
+document.getElementById('airline-feedback-form-link').addEventListener('click', ()=>{
+    window.location.href = "https://github.com/shaveen08/Apple_homepage_clone";
+});
+document.getElementById('airline-feedback-form-demo').addEventListener('click', ()=>{
+    window.location.href = "https://shaveen08.github.io/Apple_homepage_clone/";
+});
+
 //Apple Store Clone
 document.getElementById('apple-store-link').addEventListener('click', ()=>{
     window.location.href = "https://github.com/shaveen08/Apple_homepage_clone";
