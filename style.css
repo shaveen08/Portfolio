@@ -429,16 +429,16 @@
         width: 0;
     }
     .card{
-        height: 270px;
-        width: 175px;
+        height: 260px;
+        width: 166px;
         border: 2px solid #3d3d3d;
         border-radius: 22px;
         padding: 12px;
         -webkit-overflow-scrolling: 0;
     }
     .card img{
-        height: 150px;
-        width: 150px;
+        height: 140px;
+        width: 140px;
         border-radius: 22px;
     }
     .project-title h2{
@@ -459,7 +459,7 @@
         font-size: 11px;
         position: relative;
         /* top: 20px; */
-        left: 0;
+        left: 10px;
         border: 2px solid #3d3d3d;
         border-radius: 22px;
         font-weight: 600;
