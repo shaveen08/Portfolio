@@ -166,7 +166,7 @@
     display: flex;
     justify-content: space-between;
     margin:0 20px;
-    gap: 20px;
+    gap: 10px;
     overflow-x: auto;
 }
 .card-container::-webkit-scrollbar{
