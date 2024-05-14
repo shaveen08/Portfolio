@@ -36,6 +36,9 @@
 
 /*Container*/
 /*Home*/
+.container{
+    overflow: hidden;
+}
 .home{
     height: 100vh;
     width: 100%;
@@ -405,7 +408,7 @@
     }
     /*Project*/
     .project{
-        height: 100vh;
+        height: 100%;
         width: 100%;
         padding-top: 50px;
     }
@@ -416,8 +419,8 @@
         margin-bottom: 20px;
     }
     .card-container{
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         margin:0 20px;
         gap: 20px;
         overflow-x: auto;
@@ -426,28 +429,36 @@
         width: 0;
     }
     .card{
-        height: 480px;
-        width: 300px;
+        height: 300px;
+        width: 200px;
         border: 2px solid #3d3d3d;
         border-radius: 22px;
-        padding: 15px;
+        padding: 12px;
         -webkit-overflow-scrolling: 0;
     }
     .card img{
-        height: 350px;
-        width: 250px;
+        height: 170px;
+        width: 170px;
         border-radius: 22px;
     }
     .project-title h2{
         text-align: center;
+        /* white-space: nowrap; */
+        height: 44px;
+        padding: 0 0px;
         margin: 5px;
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .project .project-link{
+        display: flex;
+        flex-direction: row;
     }
     .project .card button{
-        margin: 8px 5px;
+        margin: 0px 5px;
+        padding: 8px 6px;
         position: relative;
-        left: 30px;
-        padding: 10px 12px;
+        /* top: 20px; */
+        left: 0;
         border: 2px solid #3d3d3d;
         border-radius: 22px;
         font-weight: 600;
@@ -460,6 +471,9 @@
     }
 
     /*About*/
+    .about{
+        position: relative;
+    }
     .about img{
         height: 350px;
         width: 350px;
